@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AudioPlayer" target="9" />
-      <module name="AudioPlayer-7b33fd7ad9bdf17259971372b5f316f834146306" target="9" />
+      <module name="AudioPlayer-7b33fd7ad9bdf17259971372b5f316f834146306" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
