@@ -16,7 +16,6 @@ public class PlayerTest {
 
     @BeforeClass
     public static void setUpClass() {
-        // Upphafsstilla JavaFX umhverfið
         Platform.startup(() -> {
         });
     }
@@ -32,7 +31,6 @@ public class PlayerTest {
 
     @Test
     public void testPlay() {
-        // Assuming 'play' method changes the player's state to 'PLAYING'
         try {
             player.play();
             assertEquals("Player should be in PLAYING state", MediaPlayer.Status.PLAYING, player.getStatus());
@@ -43,7 +41,6 @@ public class PlayerTest {
 
     @Test
     public void testPause() {
-        // Assuming 'pause' method changes the player's state to 'PAUSED'
         try {
             player.play();
             player.pause();
@@ -52,7 +49,5 @@ public class PlayerTest {
             fail("NullPointerException" + e.getMessage());
         }
     }
-
-    // Add more tests for stop, loadFile, etc.
 }
 

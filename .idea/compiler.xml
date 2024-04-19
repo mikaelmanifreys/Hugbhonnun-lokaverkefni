@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="AudioPlayer-7b33fd7ad9bdf17259971372b5f316f834146306" />
         <module name="AudioPlayer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AudioPlayer" target="9" />
+      <module name="AudioPlayer-7b33fd7ad9bdf17259971372b5f316f834146306" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>
